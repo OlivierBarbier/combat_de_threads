@@ -1,6 +1,6 @@
 # Combat de threads
 
-On simule un jeux au tour par tour dans lequel 2 threads 
+On simule un jeu au tour par tour dans lequel 2 threads 
 s'affrontent.
 
 Le condition à observer est que lorsque un thread joue 
