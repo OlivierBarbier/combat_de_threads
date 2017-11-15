@@ -34,8 +34,6 @@ void * handler (void * arg)
         }
         pthread_mutex_unlock(&m);
 
-        dat->tirage++;
-
         while (tirage()==tirage() && g.gameover == 0)
         {
             dat->point++;
@@ -45,6 +43,8 @@ void * handler (void * arg)
                 break;
             }
         }
+
+        dat->tirage++;
 
         pthread_mutex_lock(&m);
         g.flag = dat->indice;
