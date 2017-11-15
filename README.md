@@ -10,7 +10,7 @@ Le jeux consistera pour un thread à tirer aléatoirement 2
 entiers et à constater s'ils ont la même parité (tous 
 les 2 pairs ou tous les 2 impairs).
 
-Dans le cas où la parité est la même pour les 2 entiers
+Dans le cas où la parité est la même pour les 2 entiers,
 on incrémente un compteur de points associé au thread
 courant et on répète l'opération jusqu'à ce que :
 
