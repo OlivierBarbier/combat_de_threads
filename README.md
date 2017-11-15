@@ -3,7 +3,7 @@
 On simule un jeu au tour par tour dans lequel 2 threads 
 s'affrontent.
 
-Le condition à observer est que lorsque un thread joue 
+La condition à observer est que lorsque un thread joue 
 l'autre doit attendre.
 
 Le jeux consistera pour un thread à tirer aléatoirement 2
